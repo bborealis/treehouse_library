@@ -46,20 +46,55 @@ body {
   width : 45%;
   float : left;
   height : 45%;
-  padding: 5px;
-  border-radius : 25px;
+  border-radius : 10px;
   margin : 20px;
-}
-
-#java .course-header {
-  background : green;
-  background-size : cover;
-  width : 100%;
 }
 
 .course-header {
   width : 100%;
-  height : 40px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
+  height : 70px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#java .course-header {
+  background : #268266;
+  background-size : cover;
+  width : 100%;
+}
+
+#django .course-header {
+  background : #ed7ca0;
+  background-size : cover;
+  width : 100%;
+}
+
+#woocommerce .course-header {
+  background : #717cbf;
+  background-size : cover;
+  width : 100%;
+}
+
+#javafx .course-header {
+  background : #268266;
+  background-size : cover;
+  width : 100%;
+}
+
+.course-header li {
+  float : left;
+  list-style-type: none;
+  height : 50%;
+
+}
+.course-header ul ul {
+  float : right;
+  height : 50%;
+  padding-right: 15px;
+  color : white;
+}
+
+.course-header ul {
+  margin : 0;
+  padding-top : 15px;
 }
