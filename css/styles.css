@@ -21,7 +21,7 @@
 }
 .nav {
   box-shadow: 0 -4px 0px 4px #edeff0,0 2px 4px 0 rgba(0,0,0,0.2);
-  
+
 }
 
 li a {
@@ -36,4 +36,30 @@ h1, h3, p, li  {
 
 body {
   background : #edeff0;
+}
+
+#content {
+  height : 900px;
+}
+.course {
+  background : rgb(255,255,255);
+  width : 45%;
+  float : left;
+  height : 45%;
+  padding: 5px;
+  border-radius : 25px;
+  margin : 20px;
+}
+
+#java .course-header {
+  background : green;
+  background-size : cover;
+  width : 100%;
+}
+
+.course-header {
+  width : 100%;
+  height : 40px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
