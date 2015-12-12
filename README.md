@@ -16,6 +16,12 @@ _Download repository and open index.html file in the browser of your choice._
 
 _HTML and CSS_
 
+## To Do
+
+* Add some Icons to the header.
+* Work on exact positioning for the text bubble
+* Add text to the text bubble
+* Work on positioning of the course buttons
 
 ### Legal
 
